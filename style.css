@@ -34,10 +34,19 @@ p {
     padding: 60px;
 }
 
+button:hover {
+    color: white;
+    border:  2px solid white;
+}
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 0.625rem 0 0 0.625rem;
     position: relative;
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
 }
 
 .suvs {
@@ -45,10 +54,18 @@ p {
     position: relative;
 }
 
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);    
+}
+
 .luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
     position: relative;
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
 }
 
 button {
